@@ -1,15 +1,7 @@
-# Basic Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+<h3># Domain Service </h3>
+  <p> The smart contract was written using solidity. The contract allows people to purchase and register <br>their domain names similar to the various popular .eth and .sol usernames.
+  The price for registering is <br>determined by the length of the username. The smart contract code is located in the<code>contracts</code> directory</p>
+  <p>To deploy the contract on the local blockchain, clone the repo and run <code>npm install</code> to install the project dependencies. <br>Then run <code>npx hardhat run scripts/run.js</code>
+  The frontend was written using react and is located in <code>react frontend</code> directory</p>
+  <p> The contract has been deployed on polygon testnet, mumbai - https://mumbai.polygonscan.com/address/0xafE067abC5FbA7fDd0955282e16D004C33fD9F42.<br> The user interface was deployed on vercel @ https://domain-service-two.vercel.app/
+  
